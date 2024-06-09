@@ -22,6 +22,5 @@ pub fn main() !void {
     try heap.insert(1);
     print("after insert {d}\n", .{heap.heap.items});
     try heap.delete(6);
-
     print("after delete {d}\n", .{heap.heap.items});
 }
